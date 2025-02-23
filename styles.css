@@ -1,13 +1,17 @@
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
+    background-color: #f0f0f0; /* Light background color */
 }
 
+/* Heading Styling */
 h1 {
     color: blue;
 }
 
+/* Button Styling */
 button {
     background-color: green;
     color: white;
@@ -18,4 +22,23 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+/* 🔹 Navigation Bar Styling */
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
